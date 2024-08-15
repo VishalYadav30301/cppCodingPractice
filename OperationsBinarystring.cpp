@@ -8,7 +8,7 @@ using namespace std;
             int result = 0;
             int len = str.size();
         
-            for (int i = 0; i < len; i++) {
+            for (int i = 0; i < len; i++ ) {
                 char op = str[i];
                 if (op == 'A') {
                     result = result && (str[i+1] - '0');
