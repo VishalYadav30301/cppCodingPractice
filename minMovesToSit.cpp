@@ -1,3 +1,8 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+
+
 class Solution {
 public:
     int minMovesToSeat(vector<int>& seats, vector<int>& students) {
@@ -13,7 +18,9 @@ public:
 
         
     }
+    
 };
+
 
 // There are n availabe seats and n students standing in a room. You are given an array seats of length n, where seats[i] is the position of the ith seat. You are also given the array students of length n, where students[j] is the position of the jth student.
 
