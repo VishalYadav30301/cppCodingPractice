@@ -42,11 +42,8 @@ int main()
        cin>>x;
     }while( x =="yes"|| x=="YES");
 
+
     return 0;
 
 
 }
-
-
-
-
